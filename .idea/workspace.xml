@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ec7996dd-ad40-4818-91d6-6f9791b521b4" name="Default" comment="" />
+    <ignored path="Bac.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Bac" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="traitementAjoutUser.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/traitementAjoutUser.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <marker date="1479082204000" expanded="true" signature="548:726" ph="INSERT INTO `users`... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profil.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/profil.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="100" column="71" selection-start-line="100" selection-start-column="71" selection-end-line="100" selection-end-column="71" />
+              <folding>
+                <marker date="1479132295937" expanded="true" signature="3484:3545" ph="SELECT * FRO... users" />
+                <marker date="1479132295937" expanded="true" signature="4628:4769" ph="..." />
+                <marker date="1479132295937" expanded="true" signature="4885:5035" ph="..." />
+                <marker date="1479132295937" expanded="true" signature="8166:8471" ph="..." />
+                <marker date="1479132295937" expanded="true" signature="8216:8471" ph="..." />
+                <marker date="1479132295937" expanded="true" signature="8585:8861" ph="..." />
+                <marker date="1479132295937" expanded="true" signature="8635:8765" ph="..." />
+                <marker date="1479132295937" expanded="false" signature="8722:8734" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="upload.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/upload.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+              <folding>
+                <marker date="1479132235532" expanded="true" signature="728:792" ph="UPDATE users... " />
+                <marker date="1479132235532" expanded="true" signature="728:801" ph="UPDATE users... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="C:/wamp/www/BacBlanc/login.php" />
+        <option value="C:/wamp/www/Bac/deco.php" />
+        <option value="C:/wamp/www/Bac/navbarAdmin.php" />
+        <option value="C:/wamp/www/Bac/admin.php" />
+        <option value="C:/wamp/www/Bac/formuAjoutCategorie.php" />
+        <option value="C:/wamp/www/Bac/traitementAjoutCategorie.php" />
+        <option value="C:/wamp/www/Bac/formuAjoutRole.php" />
+        <option value="C:/wamp/www/Bac/formuAjoutUser.php" />
+        <option value="C:/wamp/www/Bac/sortbar.php" />
+        <option value="C:/wamp/www/Bac/supprimer_role.php" />
+        <option value="C:/wamp/www/Bac/config.php" />
+        <option value="C:/wamp/www/Bac/supprimer_categorie.php" />
+        <option value="$PROJECT_DIR$/../ayy/KNAB.php" />
+        <option value="C:/wamp/www/Bac/supprimer_user.php" />
+        <option value="C:/wamp/www/ayy/modifier_user.php" />
+        <option value="C:/wamp/www/ayy/KNAB.php" />
+        <option value="C:/wamp/www/Bac/formuAjoutAdmin.php" />
+        <option value="C:/wamp/www/Bac/listUsers.php" />
+        <option value="C:/wamp/www/Bac/modifier_role.php" />
+        <option value="C:/wamp/www/Bac/listRoles.php" />
+        <option value="C:/wamp/www/Bac/listCategories.php" />
+        <option value="C:/wamp/www/Bac/modifier_categorie.php" />
+        <option value="C:/wamp/www/Bac/modifier_user.php" />
+        <option value="C:/wamp/www/Bac/supprimer_video.php" />
+        <option value="C:/wamp/www/Bac/traitementAjoutVideo.php" />
+        <option value="C:/wamp/www/Bac/index.php" />
+        <option value="C:/wamp/www/Bac/modifier_video.php" />
+        <option value="C:/wamp/www/Bac/listVideos.php" />
+        <option value="C:/wamp/www/Bac/formuAjoutVideo.php" />
+        <option value="C:/wamp/www/Bac/navbar.php" />
+        <option value="C:/wamp/www/Bac/login.php" />
+        <option value="C:/wamp/www/Bac/modifier_user_profil.php" />
+        <option value="C:/wamp/www/Bac/supprimer_user_profil.php" />
+        <option value="C:/wamp/www/Bac/profil.php" />
+        <option value="$PROJECT_DIR$/listVideos.php" />
+        <option value="$PROJECT_DIR$/modifier_user_profil.php" />
+        <option value="$PROJECT_DIR$/upload.php" />
+        <option value="$PROJECT_DIR$/profil.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="633" />
+    <option name="width" value="740" />
+    <option name="height" value="772" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec7996dd-ad40-4818-91d6-6f9791b521b4" name="Default" comment="" />
+      <created>1478505840791</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1478505840791</updated>
+      <workItem from="1478505842424" duration="7743000" />
+      <workItem from="1478522604539" duration="5156000" />
+      <workItem from="1478536460326" duration="4402000" />
+      <workItem from="1478540975384" duration="121000" />
+      <workItem from="1478590590712" duration="9150000" />
+      <workItem from="1478608654591" duration="3359000" />
+      <workItem from="1478617550129" duration="1988000" />
+      <workItem from="1478677036054" duration="5916000" />
+      <workItem from="1478696308811" duration="7182000" />
+      <workItem from="1478763495169" duration="6177000" />
+      <workItem from="1478781590752" duration="8080000" />
+      <workItem from="1479114175839" duration="218000" />
+      <workItem from="1479117197601" duration="3731000" />
+      <workItem from="1479127083283" duration="4927000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="68164000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="633" y="0" width="740" height="772" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.057217166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.057217166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://C:/wamp/www/BacBlanc/login.php" />
+    <entry file="file://C:/wamp/www/Bac/navbarAdmin.php" />
+    <entry file="file://C:/wamp/www/BacBlanc/admin.php" />
+    <entry file="file://C:/wamp/www/BacBlanc/navbarAdmin.php" />
+    <entry file="file://C:/wamp/www/BacBlanc/formuAjoutVideo.php" />
+    <entry file="file://C:/wamp/www/BacBlanc/index.php" />
+    <entry file="file://C:/wamp/www/Bac/traitementAjoutCategorie.php" />
+    <entry file="file://C:/wamp/www/Bac/formuAjoutCategorie.php" />
+    <entry file="file://C:/wamp/www/BacBlanc/sortbar.php" />
+    <entry file="file://C:/wamp/www/Bac/sortbar.php" />
+    <entry file="file://$PROJECT_DIR$/../ayy/KNAB.php" />
+    <entry file="file://C:/wamp/www/BacBlanc/listRoles.php" />
+    <entry file="file://C:/wamp/www/ayy/modifier_user.php" />
+    <entry file="file://C:/wamp/www/ayy/KNAB.php" />
+    <entry file="file://C:/wamp/www/Bac/supprimer_role.php" />
+    <entry file="file://C:/wamp/www/Bac/listRoles.php" />
+    <entry file="file://C:/wamp/www/Bac/modifier_role.php" />
+    <entry file="file://C:/wamp/www/Bac/modifier_categorie.php" />
+    <entry file="file://C:/wamp/www/Bac/formuAjoutRole.php" />
+    <entry file="file://C:/wamp/www/Bac/supprimer_video.php" />
+    <entry file="file://C:/wamp/www/Bac/profile.php" />
+    <entry file="file://C:/wamp/www/Bac/formuAjoutAdmin.php" />
+    <entry file="file://C:/wamp/www/Bac/traitementAjoutVideo.php" />
+    <entry file="file://C:/wamp/www/Bac/modifier_video.php" />
+    <entry file="file://C:/wamp/www/Bac/formuAjoutVideo.php" />
+    <entry file="file://C:/wamp/www/Bac/listVideos.php" />
+    <entry file="file://C:/wamp/www/Bac/navbar.php" />
+    <entry file="file://C:/wamp/www/Bac/config.php" />
+    <entry file="file://C:/wamp/www/Bac/admin.php" />
+    <entry file="file://C:/wamp/www/Bac/index.php" />
+    <entry file="file://C:/wamp/www/Bac/listCategories.php" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/_superglobals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="180" column="21" selection-start-line="180" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/wamp/www/Bac/login.php" />
+    <entry file="file://C:/wamp/www/Bac/formuAjoutUser.php" />
+    <entry file="file://C:/wamp/www/Bac/supprimer_categorie.php" />
+    <entry file="file://C:/wamp/www/Bac/modifier_user_profil.php" />
+    <entry file="file://C:/wamp/www/Bac/listUsers.php" />
+    <entry file="file://C:/wamp/www/Bac/modifier_user.php" />
+    <entry file="file://C:/wamp/www/Bac/supprimer_user.php" />
+    <entry file="file://C:/wamp/www/Bac/supprimer_user_profil.php" />
+    <entry file="file://C:/wamp/www/Bac/profil.php" />
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1479082204000" expanded="true" signature="1523:1620" ph="SELECT * FRO... videos" />
+            <marker date="1479082204000" expanded="true" signature="3620:3658" ph="SELECT * FRO... videos" />
+            <marker date="1479082204000" expanded="true" signature="3955:3976" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formuAjoutUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-511">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listVideos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="50" column="47" selection-start-line="43" selection-start-column="0" selection-end-line="50" selection-end-column="47" />
+          <folding>
+            <marker date="1479082204000" expanded="true" signature="1150:1247" ph="SELECT * FRO... videos" />
+            <marker date="1479082204000" expanded="true" signature="3226:3407" ph="..." />
+            <marker date="1479082204000" expanded="true" signature="3324:3402" ph="..." />
+            <marker date="1479082204000" expanded="true" signature="3472:3685" ph="..." />
+            <marker date="1479082204000" expanded="true" signature="3519:3619" ph="..." />
+            <marker date="1479082204000" expanded="false" signature="3576:3588" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modifier_categorie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <marker date="1479082204000" expanded="true" signature="263:346" ph="UPDATE categ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modifier_user_profil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+          <folding>
+            <marker date="1479129066429" expanded="true" signature="364:520" ph="UPDATE users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modifier_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="31" selection-start-line="16" selection-start-column="3" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <marker date="1479082204000" expanded="true" signature="413:576" ph="UPDATE users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/traitementAjoutUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <marker date="1479082204000" expanded="true" signature="548:726" ph="INSERT INTO `users`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+          <folding>
+            <marker date="1479132235532" expanded="true" signature="728:792" ph="UPDATE users... " />
+            <marker date="1479132235532" expanded="true" signature="728:801" ph="UPDATE users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="100" column="71" selection-start-line="100" selection-start-column="71" selection-end-line="100" selection-end-column="71" />
+          <folding>
+            <marker date="1479132295937" expanded="true" signature="3484:3545" ph="SELECT * FRO... users" />
+            <marker date="1479132295937" expanded="true" signature="4628:4769" ph="..." />
+            <marker date="1479132295937" expanded="true" signature="4885:5035" ph="..." />
+            <marker date="1479132295937" expanded="true" signature="8166:8471" ph="..." />
+            <marker date="1479132295937" expanded="true" signature="8216:8471" ph="..." />
+            <marker date="1479132295937" expanded="true" signature="8585:8861" ph="..." />
+            <marker date="1479132295937" expanded="true" signature="8635:8765" ph="..." />
+            <marker date="1479132295937" expanded="false" signature="8722:8734" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
