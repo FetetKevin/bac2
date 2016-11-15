@@ -82,6 +82,14 @@ else {
                     <?php
                 }
                 ?>
+                <br>
+                <br>
+                <label class="btn btn-danger checked">
+                    <input type="radio" name="etat" value="publie"> Publie
+                </label>
+                <label class="btn btn-danger">
+                    <input type="radio" name="etat" value="non publie"> Non Publie
+                </label>
             </div>
 
             <div class="form-group">

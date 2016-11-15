@@ -97,8 +97,7 @@ while($row = mysqli_fetch_assoc($reponse)){
                         </div>
                     </div>
 
-                    <div class="col-md-10 col-sm-8 col-xs-8 col-md-offset-1 col-sm-offset-2 col-xs-offset-2"
-                         style="border-bottom: 1px solid darkgrey;box-shadow: 0px 2px 3px #888888; margin-top: 70px;margin-bottom:70px;"></div>
+                    <hr>
                 </div>
             </div>
         </div><!-- fin ontainer -->

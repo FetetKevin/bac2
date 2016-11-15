@@ -9,9 +9,10 @@ if (!empty($_POST) && isset($_POST['lienUrl']) && isset($_POST['vignette']) && i
     $vignette = htmlspecialchars($_POST['vignette']);
     $lienTitre = htmlspecialchars($_POST['lienTitre']);
     $description = htmlspecialchars($_POST['description']);
+    $publie = $_POST['etat'];
 
     foreach ($_POST['categorie'] as $valeur) {
-        $req = 'INSERT INTO `videos`(`url_video`,`vignette_video`, `titre_video`, `date_video`, `desc_video`, `categorie_video`, `etat_video`) VALUES ("' . $lienUrl . '","' . $vignette . '","' . $lienTitre . '",  NOW()  ,"' . $description . '","' . $valeur . '","non publie")';
+        $req = 'INSERT INTO `videos`(`url_video`,`vignette_video`, `titre_video`, `date_video`, `desc_video`, `categorie_video`, `etat_video`) VALUES ("' . $lienUrl . '","' . $vignette . '","' . $lienTitre . '",  NOW()  ,"' . $description . '","' . $valeur . '","'.$publie.'")';
 
     }
     if (!$_POST['categorie']) {

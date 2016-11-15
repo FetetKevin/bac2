@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.5.5.1
--- http://www.phpmyadmin.net
+-- version 4.6.4
+-- https://www.phpmyadmin.net/
 --
 -- Client :  127.0.0.1
--- Généré le :  Jeu 10 Novembre 2016 à 20:11
--- Version du serveur :  5.7.11
--- Version de PHP :  5.6.19
+-- Généré le :  Mar 15 Novembre 2016 à 09:37
+-- Version du serveur :  5.7.14
+-- Version de PHP :  5.6.25
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -72,6 +72,7 @@ CREATE TABLE `users` (
   `prenom` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
   `motDePasse` varchar(255) NOT NULL,
+  `avatar_user` varchar(255) NOT NULL,
   `roles_id_role` int(11) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
@@ -79,11 +80,11 @@ CREATE TABLE `users` (
 -- Contenu de la table `users`
 --
 
-INSERT INTO `users` (`id_user`, `nom`, `prenom`, `email`, `motDePasse`, `roles_id_role`) VALUES
-(1, 'fetet', 'kevin', 'fetetkevin@gmail.com', 'insectile22', 1),
-(32, 'a', 'a', 'a@a.com', 'a', 2),
-(29, 'z', 'z', 'z@z.com', 'z', 2),
-(30, 'ayy', 'renÃ©', 'coeze@gfth', 'oui', 2);
+INSERT INTO `users` (`id_user`, `nom`, `prenom`, `email`, `motDePasse`, `avatar_user`, `roles_id_role`) VALUES
+(1, 'fetet', 'kevin', 'fetetkevin@gmail.com', 'insectile22', '1.jpg', 1),
+(32, 'a', 'a', 'a@a.com', 'a', 'coincoin.jpg', 2),
+(29, 'z', 'z', 'z@z.com', 'z', '', 2),
+(30, 'ayy', 'renÃ©', 'coeze@gfth', 'oui', '', 2);
 
 -- --------------------------------------------------------
 
@@ -96,6 +97,7 @@ CREATE TABLE `videos` (
   `videos_id_role` int(11) DEFAULT NULL,
   `categories_id_categorie` int(11) DEFAULT NULL,
   `url_video` varchar(255) NOT NULL,
+  `vignette_video` varchar(255) NOT NULL,
   `titre_video` varchar(255) NOT NULL,
   `desc_video` varchar(2000) NOT NULL,
   `categorie_video` varchar(255) NOT NULL,
@@ -107,12 +109,11 @@ CREATE TABLE `videos` (
 -- Contenu de la table `videos`
 --
 
-INSERT INTO `videos` (`id_video`, `videos_id_role`, `categories_id_categorie`, `url_video`, `titre_video`, `desc_video`, `categorie_video`, `date_video`, `etat_video`) VALUES
-(1, NULL, NULL, '-Ihd_wB634s', 'BIFFTY - SOUYON (produit par DJ Weedim)', 'jytjtdyjt', '1', '2016-11-07', 'non publie'),
-(2, NULL, NULL, 'azEwEoweqbA', 'lKpote | Mon Histoire (Clip officiel) | Album : L', 'nonononono', '3', '2016-11-07', 'publie'),
-(3, NULL, NULL, '6SolqUNbyKw', 'Random chiptune mix 15', 'qsfsqf', '2', '2016-11-07', 'non publie'),
-(6, NULL, NULL, 'CfB9qIgSMsg', 'Vald - Urbanisme - 11.43 AM', 'hgkhgkghkhgk', '4', '2016-11-08', 'publie'),
-(7, NULL, NULL, 'RlVTb3g-COY', 'fgnsgsfgn', 'sfgnfsgnfgsnf', '3', '2016-11-09', 'publie');
+INSERT INTO `videos` (`id_video`, `videos_id_role`, `categories_id_categorie`, `url_video`, `vignette_video`, `titre_video`, `desc_video`, `categorie_video`, `date_video`, `etat_video`) VALUES
+(12, NULL, NULL, 'oFRbZJXjWIA', 'hqdefault4.jpg', 'Bob Marley Jammin', 'Ooh, yeah! All right!\nWe\'re jammin\':\nI wanna jam it wid you.\nWe\'re jammin\', jammin\',\nAnd I hope you like jammin\', too.\n\nAin\'t no rules, ain\'t no vow, we can do it anyhow:\nI\'n\'I will see you through,\n\'Cos everyday we pay the price with a little sacrifice,\nJammin\' till the jam is through.\n\nWe\'re jammin\' -\nTo think that jammin\' was a thing of the past;\nWe\'re jammin\',\nAnd I hope this jam is gonna last.\n\nNo bullet can stop us now, we neither beg nor we won\'t bow;\nNeither can be bought nor sold.\nWe all defend the right; Jah - Jah children must unite:\nYour life is worth much more than gold.\n\nWe\'re jammin\' (jammin\', jammin\', jammin\')\nAnd we\'re jammin\' in the name of the Lord;\nWe\'re jammin\' (jammin\', jammin\', jammin\'),\nWe\'re jammin\' right straight from Yah.\n\nYeh! Holy Mount Zion;\nHoly Mount Zion:\nJah sitteth in Mount Zion\nAnd rules all creation.\n\nYeah, we\'re - we\'re jammin\' (wotcha-wa),\nWotcha-wa-wa-wa, we\'re jammin\' (wotcha-wa),\nSee, I wanna jam it wid you\nWe\'re jammin\' (jammin\', jammin\', jammin\')\nI\'m jammed: I hope you\'re jammin\', too.\n\nJam\'s about my pride and truth I cannot hide\nTo keep you satisfied.\nTrue love that now exist is the love I can\'t resist,\nSo jam by my side.\n\nWe\'re Jammin\' (jammin\', jammin\', jammin\'), yeah-eah-eah!\nI wanna jam it wid you.\nWe\'re jammin\', we\'re jammin\', we\'re jammin\', we\'re jammin\',\nWe\'re jammin\', we\'re jammin\', we\'re jammin\', we\'re jammin\';\nHope you like jammin\', too.\nWe\'re jammin\', we\'re jammin\' (jammin\'),\nWe\'re jammin\', we\'re jammin\' (jammin\').\nI wanna (I wanna jam it wid you) - I wanna -\nI wanna jam wid you now.\nJammin\', jammin\' (hope you like jammin\' too).\nEh-eh! I hope you like jammin\', I hope you like jammin\',\n\'Cause (I wanna jam it wid you). I wanna ... wid you.\nI like - I hope you - I hope you like jammin\', too.\nI wanna jam it;\nI wanna jam it.', '4', '2016-11-15', 'publie'),
+(9, NULL, NULL, 'pSImoEnc8fQ', 'hqdefault.jpg', 'Nixo - N', 'Disponible sur iTunes:\nhttp://apple.co/1WNP3ki\nSuivez Nixo sur sa page Facebook et son Snapchat!\nFb : http://bit.ly/1UHvU1R Snap : Nix Sow\nRéalisé par Iross et Dioday\nhttp://www.facebook.com/NuitBlanchePr...\n\nProd by D.i.n BEATS\nhttps://www.facebook.com/DinBeats31242od by D.i.n BEATShttps://www.facebook.com/DinBeats31242', '1', '2016-11-15', 'publie'),
+(10, NULL, NULL, 'LoheCz4t2xc', 'hqdefault2.jpg', 'System Of A Down - Hypnotize ', 'Why don\'t you ask the kids at Tiananmen square?\nWas Fashion the reason why they were there?\n\nThey disguise it, Hypnotize it\nTelevision made you buy it\n\nI\'m just sitting in my car and waiting for my...\n\nShe\'s scared that I will take her away from there\nHer dreams that her country left with no one there\n\nMezmerize the simple minded\nPropaganda leaves us blinded', '2', '2016-11-15', 'publie'),
+(11, NULL, NULL, 'hBduDuYXJHI', 'hqdefault3.jpg', 'salut c\'est cool', 'Tu peux gagner des points dans l\'espace et le temps. Figure en géométrie Figure, en littérature Figure, en anatomie Figure, en peinture Figure, personnage célèbre Figure, dans un jeu de cartes Figures de skateboard. Figures de jonglerie. Figure de note. Figure de silence.', '3', '2016-11-15', 'publie');
 
 --
 -- Index pour les tables exportées
@@ -174,7 +175,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT pour la table `videos`
 --
 ALTER TABLE `videos`
-  MODIFY `id_video` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id_video` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

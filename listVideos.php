@@ -41,9 +41,10 @@ echo "</tr></thead>";	//fin tableau head
 echo "<tbody>";//tableau body debut
 
 //On récupère tous les champs de la table users
-$videos = "SELECT * FROM videos 
+$videos = "SELECT * FROM videos
 	LEFT JOIN categories 
-	ON videos.categorie_video = categories.id_categorie";
+	ON videos.categorie_video = categories.id_categorie
+	ORDER BY id_video";
 //send query
 $reponse = mysqli_query($link, $videos);
 if(mysqli_num_rows($reponse)>0){
