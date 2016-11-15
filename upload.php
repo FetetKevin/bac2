@@ -40,6 +40,7 @@ if(isset($_POST["submit"]) && (!empty($_FILES['fileToUpload']))) {
 
 
 mysqli_close($link);
+
 // Check if file already exists
 if (file_exists($target_file)) {
     echo "Sorry, file already exists.";

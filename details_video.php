@@ -31,13 +31,13 @@ include('config.php');
 
 
 <section>
-    <div class="container-fluid">
         <?php
         $sql ='SELECT * FROM videos WHERE id_video = '.$_GET["id_video"].' ';
         $reponse = mysqli_query($link,  $sql);
         while($row = mysqli_fetch_array($reponse)) {
 
             ?>
+    <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3" id="titreVideo">
                     <h4 style="margin-top: 30px;margin-bottom: 20px; color: #E52C27;"><?= $row['titre_video']; ?></h4>
@@ -63,13 +63,75 @@ include('config.php');
 
         <br>
         <br>
-        <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-info">
-                <div class="panel-heading">Panel with panel-info class</div>
-                <div class="panel-body">Panel Content</div>
+        <div class="container">
+            <?php
+            $sql ='SELECT * FROM commentaires';
+            $reponse = mysqli_query($link,  $sql);
+            while($row = mysqli_fetch_array($reponse)) {
+
+                ?>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="panel panel-info">
+                        <div class="panel-heading">Posté par : Jean singe</div>
+                        <div class="panel-body"><?= $row['desc_commentaire']; ?></div>
+                    </div>
+                </div>
             </div>
+            <?php
+            }
+            ?>
+            <hr>
+            <br>
         </div>
+
+        <!--<div class="container">
+            <div class="row">
+                <form method="POST" action="post_com.php">
+                    <input name="lienCom" placeholder="Postez votre commentaire ici !">
+                    <br>
+                    <input type="submit" name="postez" class="btn btn-danger" value="Postez !">
+                </form>
+            </div>
+        </div>-->
+        <?php
+        if($_SESSION['logged']) {
+            ?>
+            <div class="container" style="background: white;">
+                <div class="row">
+                    <h2 class="page-header text-center">Ajoutez un Commentaire !</h2>
+                    <div class="col-md-5 col-sm-6 col-xs-12">
+                    </div>
+                </div>
+            </div>
+            <div class="container" style="background: white;border-bottom: 1px solid black;">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <form class="form-horizontal" role="form" method="post" action="post_com.php" id="formuLogin">
+                            <div class="form-group">
+                                <label for="name" class="col-sm-2 control-label">Votre commentaire</label>
+                                <div class="col-sm-10">
+                                    <textarea type="text" class="form-control" name="lienCom"></textarea>
+                                </div>
+                            </div>
+<br>
+                            <div class="form-group">
+                                <div class="col-sm-10 col-sm-offset-2">
+                                    <input id="ajouter" name="ajouter" type="submit" value="Ajouter"
+                                           class="btn btn-danger">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <?php
+        }
+        ?>
         <br>
+        <br><br>
+        <br><br>
+        <br><br>
         <br>
 
     </div>
