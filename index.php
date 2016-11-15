@@ -83,16 +83,18 @@ while($row = mysqli_fetch_assoc($reponse)){
                 <div class="col-md-12">
                     <div class="col-md-6 col-sm-12 col-xs-12 col-md-offset-3" id="titreVideo">
                         <h4 style="margin-top: 30px;margin-bottom: 20px; color: #E52C27;"><?= $row['titre_video']; ?></h4>
-                        <p><?= $row['desc_video']; ?></p>
-                        <p>DATE : <?= $row['date_video']; ?></p>
+                       <!-- <p><?= $row['desc_video']; ?></p>
+                        <p>DATE : <?= $row['date_video']; ?></p>-->
                         <p>Categorie : <?= $row['nom_categorie']; ?></p>
                     </div>
-                    <div class="col-md-12 col-sm-12 col-xs-6">
-                        <center>
-                            <iframe width="600" height="400"
-                                    src="https://www.youtube.com/embed/<?= $row['url_video']; ?>"
-                                    frameborder="0" allowfullscreen style="margin-top:30px;"></iframe>
-                        </center>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 col-xs-6 col-md-offset-3">
+                            <center>
+                                <a href="details_video.php?id_video=<?= $row['id_video'] ?>">
+                                <img src="vignette/<?php echo $row['vignette_video'] ?>" class="img-squarre img-responsive" style="height: 200px;width:300px;">
+                                    </a>
+                            </center>
+                        </div>
                     </div>
 
                     <div class="col-md-10 col-sm-8 col-xs-8 col-md-offset-1 col-sm-offset-2 col-xs-offset-2"

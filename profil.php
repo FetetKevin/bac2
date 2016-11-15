@@ -81,23 +81,22 @@ $tableHeading[]='modifier';
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-0 col-md-offset-3 col-lg-offset-3 toppad" >
 
+            <?php
+            //On récupère tous les champs de la table users
+            $users = 'SELECT * FROM users WHERE id_user = '.$_SESSION["id_user"].'';
+            //send query
+            $reponse = mysqli_query($link, $users);
 
+
+            if(mysqli_num_rows($reponse)>0){//si il y a une reponse
+            while ($row = mysqli_fetch_assoc($reponse)) {
+            ?>
             <div class="panel panel-info">
                 <div class="panel-heading">
-                    <h3 class="panel-title"><?= strtoupper($_SESSION["nom"]).' '.strtoupper($_SESSION['prenom']); ?></h3>
+                    <h3 class="panel-title"><?= strtoupper($row["nom"]).' '.strtoupper($row['prenom']); ?></h3>
                 </div>
                 <div class="panel-body">
                     <div class="row">
-                        <?php
-                        //On récupère tous les champs de la table users
-                        $users = 'SELECT * FROM users WHERE id_user = '.$_SESSION["id_user"].'';
-                        //send query
-                        $reponse = mysqli_query($link, $users);
-
-
-                        if(mysqli_num_rows($reponse)>0){//si il y a une reponse
-                        while ($row = mysqli_fetch_assoc($reponse)) {
-                        ?>
                         <div class="col-md-3 col-lg-3 " align="center">
                             <img alt="User Pic" src="uploads/<?= $row['avatar_user']; ?>"
                                  class="img-squarre img-responsive">

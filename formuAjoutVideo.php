@@ -42,6 +42,12 @@ else {
                 </div>
             </div>
             <div class="form-group">
+                <label class="col-sm-2 control-label">Vignette</label>
+                <div class="col-md-4">
+                    <input type="text" class="form-control" name="vignette" id="url1" value="">
+                </div>
+            </div>
+            <div class="form-group">
                 <label class="col-sm-2 control-label">TITRE</label>
                 <div class="col-md-4">
                     <input type="text" class="form-control" name="lienTitre" id="titre1" value="">
