@@ -73,7 +73,7 @@ include('config.php');
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <div class="panel panel-info">
-                        <div class="panel-heading">Posté par : Jean singe</div>
+                        <div class="panel-heading">Posté par : <span style="color:red;">Jean singe</span> le <span style="color:red;"><?= $row['date_commentaire']; ?></span></div>
                         <div class="panel-body"><?= $row['desc_commentaire']; ?></div>
                     </div>
                 </div>

@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec7996dd-ad40-4818-91d6-6f9791b521b4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/post_com.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/details_video.php" afterPath="$PROJECT_DIR$/details_video.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload.php" afterPath="$PROJECT_DIR$/upload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post_com.php" afterPath="$PROJECT_DIR$/post_com.php" />
     </list>
     <ignored path="Bac.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,14 +41,16 @@
       <file leaf-file-name="details_video.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/details_video.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
+            <state relative-caret-position="152">
+              <caret line="75" column="105" selection-start-line="75" selection-start-column="105" selection-end-line="75" selection-end-column="105" />
               <folding>
-                <marker date="1479223391538" expanded="true" signature="1156:1170" ph="SELECT * FRO... videos" />
-                <marker date="1479223391538" expanded="true" signature="1156:1194" ph="SELECT * FRO... videos" />
-                <marker date="1479223391538" expanded="true" signature="1156:1215" ph="SELECT * FRO... videos" />
-                <marker date="1479223391538" expanded="true" signature="1156:1217" ph="SELECT * FRO... videos" />
-                <marker date="1479223391538" expanded="true" signature="2430:2456" ph="SELECT * FRO... commentaires" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1479224029731" expanded="true" signature="1156:1170" ph="SELECT * FRO... videos" />
+                <marker date="1479224029731" expanded="true" signature="1156:1194" ph="SELECT * FRO... videos" />
+                <marker date="1479224029731" expanded="true" signature="1156:1215" ph="SELECT * FRO... videos" />
+                <marker date="1479224029731" expanded="true" signature="1156:1217" ph="SELECT * FRO... videos" />
+                <marker date="1479224029731" expanded="true" signature="2430:2456" ph="SELECT * FRO... commentaires" />
               </folding>
             </state>
           </provider>
@@ -230,12 +231,12 @@
       <workItem from="1479117197601" duration="3731000" />
       <workItem from="1479127083283" duration="7663000" />
       <workItem from="1479196135574" duration="9039000" />
-      <workItem from="1479213462753" duration="7899000" />
+      <workItem from="1479213462753" duration="8579000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87838000" />
+    <option name="totallyTimeSpent" value="88518000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="0" width="697" height="775" extended-state="0" />
@@ -494,16 +495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/post_com.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-          <folding>
-            <marker date="1479223075108" expanded="true" signature="147:221" ph="INSERT INTO `roles`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/traitementAjoutVideo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -515,16 +506,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/post_com.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <marker date="1479223748326" expanded="true" signature="147:247" ph="INSERT INTO `roles`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/details_video.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
+        <state relative-caret-position="152">
+          <caret line="75" column="105" selection-start-line="75" selection-start-column="105" selection-end-line="75" selection-end-column="105" />
           <folding>
-            <marker date="1479223391538" expanded="true" signature="1156:1170" ph="SELECT * FRO... videos" />
-            <marker date="1479223391538" expanded="true" signature="1156:1194" ph="SELECT * FRO... videos" />
-            <marker date="1479223391538" expanded="true" signature="1156:1215" ph="SELECT * FRO... videos" />
-            <marker date="1479223391538" expanded="true" signature="1156:1217" ph="SELECT * FRO... videos" />
-            <marker date="1479223391538" expanded="true" signature="2430:2456" ph="SELECT * FRO... commentaires" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1479224029731" expanded="true" signature="1156:1170" ph="SELECT * FRO... videos" />
+            <marker date="1479224029731" expanded="true" signature="1156:1194" ph="SELECT * FRO... videos" />
+            <marker date="1479224029731" expanded="true" signature="1156:1215" ph="SELECT * FRO... videos" />
+            <marker date="1479224029731" expanded="true" signature="1156:1217" ph="SELECT * FRO... videos" />
+            <marker date="1479224029731" expanded="true" signature="2430:2456" ph="SELECT * FRO... commentaires" />
           </folding>
         </state>
       </provider>

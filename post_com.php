@@ -6,7 +6,7 @@ if (!empty($_POST) && isset($_POST['lienCom'])) {
     $lienCom = htmlspecialchars($_POST['lienCom']);
 
 
-    $req = "INSERT INTO `commentaires`(`desc_commentaire`) VALUES ('" . $lienCom . "')";
+    $req = "INSERT INTO `commentaires`(`desc_commentaire`,`date_commentaire`) VALUES ('" . $lienCom . "', NOW())";
 
 
 }
