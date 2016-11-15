@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec7996dd-ad40-4818-91d6-6f9791b521b4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/details_video.php" afterPath="$PROJECT_DIR$/details_video.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post_com.php" afterPath="$PROJECT_DIR$/post_com.php" />
-    </list>
+    <list default="true" id="ec7996dd-ad40-4818-91d6-6f9791b521b4" name="Default" comment="" />
     <ignored path="Bac.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -231,12 +227,12 @@
       <workItem from="1479117197601" duration="3731000" />
       <workItem from="1479127083283" duration="7663000" />
       <workItem from="1479196135574" duration="9039000" />
-      <workItem from="1479213462753" duration="8579000" />
+      <workItem from="1479213462753" duration="8627000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88518000" />
+    <option name="totallyTimeSpent" value="88566000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="0" width="697" height="775" extended-state="0" />

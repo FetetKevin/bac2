@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Client :  127.0.0.1
--- Généré le :  Mar 15 Novembre 2016 à 09:37
+-- Généré le :  Mar 15 Novembre 2016 à 16:51
 -- Version du serveur :  5.7.14
 -- Version de PHP :  5.6.25
 
@@ -40,6 +40,27 @@ INSERT INTO `categories` (`id_categorie`, `nom_categorie`) VALUES
 (2, 'rock'),
 (3, 'electro'),
 (4, 'reggea');
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `commentaires`
+--
+
+CREATE TABLE `commentaires` (
+  `id_commentaire` int(11) NOT NULL,
+  `desc_commentaire` varchar(20000) NOT NULL,
+  `date_commentaire` varchar(255) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Contenu de la table `commentaires`
+--
+
+INSERT INTO `commentaires` (`id_commentaire`, `desc_commentaire`, `date_commentaire`) VALUES
+(7, 'rgbilgrblkjbklhtjiln', '2016-11-15 16:34:02'),
+(5, 'dfg', '2016-11-15 16:29:11'),
+(6, 'le fromage', '2016-11-15 16:31:10');
 
 -- --------------------------------------------------------
 
@@ -81,7 +102,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id_user`, `nom`, `prenom`, `email`, `motDePasse`, `avatar_user`, `roles_id_role`) VALUES
-(1, 'fetet', 'kevin', 'fetetkevin@gmail.com', 'insectile22', '1.jpg', 1),
+(1, 'fetet', 'kevin', 'fetetkevin@gmail.com', 'insectile22', 'bob.gif', 1),
 (32, 'a', 'a', 'a@a.com', 'a', 'coincoin.jpg', 2),
 (29, 'z', 'z', 'z@z.com', 'z', '', 2),
 (30, 'ayy', 'renÃ©', 'coeze@gfth', 'oui', '', 2);
@@ -126,6 +147,12 @@ ALTER TABLE `categories`
   ADD KEY `id_categorie` (`id_categorie`);
 
 --
+-- Index pour la table `commentaires`
+--
+ALTER TABLE `commentaires`
+  ADD PRIMARY KEY (`id_commentaire`);
+
+--
 -- Index pour la table `roles`
 --
 ALTER TABLE `roles`
@@ -162,6 +189,11 @@ ALTER TABLE `videos`
 ALTER TABLE `categories`
   MODIFY `id_categorie` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 --
+-- AUTO_INCREMENT pour la table `commentaires`
+--
+ALTER TABLE `commentaires`
+  MODIFY `id_commentaire` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+--
 -- AUTO_INCREMENT pour la table `roles`
 --
 ALTER TABLE `roles`
@@ -175,7 +207,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT pour la table `videos`
 --
 ALTER TABLE `videos`
-  MODIFY `id_video` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id_video` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
